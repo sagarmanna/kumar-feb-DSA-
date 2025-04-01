@@ -15,3 +15,23 @@
 // }
 
 
+// pshudocode
+//  OPTIMIZED SOLUTION
+
+//  input(n,k)
+//  input(arr)
+//  int countPairs(){
+//     int cnt=0;
+//     map<int,int>mp;
+//     for(int j=1;j<=n;j++){
+//         if(mp.find(b[j]+k)!=mp.end())
+//         cnt=cnt+mp[b[j]-k];
+
+
+//     }
+//     return cnt;
+//  }
+
+
+
+
