@@ -17,6 +17,25 @@ void solve(){
         int x;
         cin>>x;
         cout<<frequencyMap[x]<<"\n";
-        
+
     }
 }
+
+
+
+//TWO SUM
+
+ class sollution {
+    public:
+    vector<int>twoSUm(vector<int>&nums, int target){
+    unordered_map<int,int> indexMap;
+    int n =num.size();
+    for(int i =0; i<n;i++){
+        a+b=t
+        a=t-b
+        int remaining=target-nums[i];
+        if(indexMap.find(remaining)!= indexmap.end()){
+            return{indexMap[remaining], i};
+                }
+                return { -1,-1};
+    }
