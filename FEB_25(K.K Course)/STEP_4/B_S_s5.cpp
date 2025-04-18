@@ -20,3 +20,25 @@ class solution {
         return -1;
      }
 }
+
+//Question 3
+
+
+bool lessThanEqual(double a, double n, double m) { 
+    double res = 1; 
+    for (int i=1; i <= n; i++) { 
+    res = a; 
+    (res > m) return false; 
+    } 
+    return true 
+    } 
+    double findNthRootOfM(int n, int m) ( 
+    double l=1,r= m; 
+    while (-1> (10-8)) ( 
+    double mid (1+r)/2; 
+    (lessThanEqual(mid, n, m)) { 
+    l= mid; 
+    }else r= mid; 
+    } 
+    return 1; 
+    }
