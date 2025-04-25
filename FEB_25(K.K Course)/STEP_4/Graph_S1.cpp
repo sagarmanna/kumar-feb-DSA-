@@ -21,3 +21,25 @@ while(i<=m){
 
 
 queue q;
+
+q.push(1);
+visited[]=0;
+lvl[]=0;
+lvl[1]=0;
+
+While(q.empty)
+print(v.. lvl[v]);
+
+q.pop();
+
+for(auto u : G[v]){ // this means iterating through all nodes connected to nodes 
+    if(visited[u]==0){
+        q.push(u);
+        visited[u]-1;
+        lvl[u]-lvl[v]+1;
+
+    }
+    else{
+        // already visited node u so why visiting it again ....so stop
+    }
+}
